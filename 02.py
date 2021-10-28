@@ -1237,7 +1237,8 @@ for c in mess:
 
 s = [(k, frequency[k]) for k in sorted(frequency, key=frequency.get, reverse=True)]
 
+r = ""
 for k,v  in s:
-    print("{}".format(k))
+    r += k
 
-print()
+print(r)
